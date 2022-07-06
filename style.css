@@ -1,0 +1,356 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.container{
+   
+   
+    background: linear-gradient(rgba(59, 58, 58, 0.527), rgba(209, 79, 79, 0.5)), url("images/donation1.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: white;
+    position: relative;
+    height: 100vh;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    text-align: center;
+   
+}
+.header h1{
+    font-size: 50px;
+    line-height: 60px;
+}
+
+p{
+    font-size: 18px;
+    font-weight: 400;
+    font-family:  'Poppins', sans-serif; 
+}
+.btn{
+        background-color: rgb(219, 75, 75);
+        border-radius: 5px;
+        color: white;
+        padding: 10px 10px;
+        text-align: center;
+        display: inline-block;
+        font-size: 18px;
+        margin: 20px 30px;
+        cursor: pointer;
+        text-decoration:none;
+    }
+    .header{
+        margin-top: 150px;
+    
+    }
+
+/*-----second------*/
+
+   .second{
+    width:80%;
+    margin: auto;
+    text-align: center;
+    padding-top: 100px;
+   }
+h1{
+    font-size: 38px;
+    font-weight: 900;
+    font-family: 'Poppins', sans-serif; 
+}
+.para{
+    color: gray;
+    font-size: 17px;
+    font-weight: 400;
+    font-family: 'Poppins', sans-serif;
+    padding-top: 22px;
+}
+.row{
+
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+.row h2{
+    font-weight: 1000;
+    
+    border-radius: 5px;
+    margin-left: 5px;
+    margin-right: 5px;
+    font-family:'Poppins', sans-serif ;
+
+
+
+}
+.first-value{
+    padding:25px 20px ;
+    color: rgb(60, 60, 61);
+    background-color: rgb(241, 238, 238);
+    
+}
+.second-value{
+    padding:25px 20px ;
+    color: red;
+    border: 2px solid red;
+    background-color: rgb(253, 201, 201);
+}
+.third-value{
+    color: rgb(60, 60, 61);
+    padding:25px 20px ;
+    background-color: rgb(241, 238, 238);
+}
+.forth-value{
+    color: rgb(60, 60, 61);
+    padding:25px 10px ;
+    background-color: rgb(241, 238, 238);
+}
+.fifth-value{
+    color: rgb(60, 60, 61);
+    padding:25px 8px ;
+    background-color: rgb(241, 238, 238);
+}
+hr{
+    width: 545px;
+    margin-left: 267px;
+}
+h3{
+    font-family:'Poppins', sans-serif ;
+    font-weight: 400;
+    color: rgb(153, 150, 150);
+}
+
+a{
+    font-family:'Poppins', sans-serif ;
+}
+
+/*-----third------*/
+
+.third{
+
+    width:80%;
+    margin: auto;
+    text-align: center;
+    padding-top: 110px;
+    padding-bottom: 80px;
+}
+.third h1{
+    font-weight: 900;
+    font-size: 38px;
+    
+    
+}
+#content{
+    
+    padding:80px 100px ;
+    display: flex;
+}
+
+.col-one{
+    
+    margin-left: 20px;
+    background-color: rgb(228, 228, 252);
+    border-radius: 6px;
+    font-family:'Poppins', sans-serif ;
+}
+.col-one img{
+    margin: 20px 30px;
+    display: flex;
+}
+.col-two{
+    
+    margin-left: 20px;
+    background-color: rgb(243, 220, 253);
+    border-radius: 6px;
+    font-family:'Poppins', sans-serif ;
+}
+.col-two img{
+    margin: 20px 25px;
+    display: flex;
+}
+.col-three{
+    
+    margin-left: 20px;
+    background-color: rgb(253, 228, 212);
+    border-radius: 6px;
+    font-family:'Poppins', sans-serif ;
+    
+}
+
+.col-three img{
+    margin: 20px 20px;
+    display: flex;
+}
+.head{
+    color: black;
+    font-weight: 600;
+    text-align: left;
+    padding: 10px 20px;
+    margin: 0px 10px;
+}
+
+.col-one p{
+    color: rgb(114, 111, 111);
+    font-size: 14px;
+    padding: 30px 30px;
+    text-align: left;
+}
+.col-two p{
+    color: rgb(114, 111, 111);
+    font-size: 14px;
+    padding: 30px 30px;
+    text-align: left;
+}
+.col-three p{
+    color: rgb(114, 111, 111);
+    font-size: 14px;
+    padding: 30px 30px;
+    text-align: left;
+
+}
+img{
+    height: 55px;
+    width: 55px;
+    
+}
+
+/*-----forth------*/
+
+.sec-forth{
+       display: flex;
+}
+.sec-forth div{
+    width: 29%;
+    
+
+       
+}
+.sec-forth img{
+    width: 100%;   
+    height: 100%;    
+}
+
+
+.forth{
+    background-color: rgb(155, 163, 156);
+}
+.team{
+    margin: 0% 4%;
+    
+    padding: 50px 0px ;
+}
+.goal{
+    margin: 0% 4%;
+   
+    padding: 50px 0px ;
+}
+.team a{
+    margin-left: -3px;
+}
+.goal a{
+    margin-left: -3px;
+    
+}
+.team h1{
+    font-size: 30px;
+}
+.goal p{
+    margin-top: 14px;
+}
+.goal h1{
+    font-size: 30px;
+}
+.team hr{
+   
+    width: 145px;
+    margin-left: 0px;
+    
+}
+.goal hr{
+    margin-top: -20px;
+    width: 145px;
+    margin-left: 0px;
+    
+}
+.forth-para{
+    font-family: 'Poppins', sans-serif;
+    color: rgb(69, 69, 71);
+    font-size: 20px;
+}
+
+/*-----section fifth------*/
+
+.email{
+   height: 35.5px;
+   width: 200px;
+   margin: -38px;
+   padding-left: 10px;
+   color: gray;
+   border-radius: 5px;
+}
+.fifth{
+    width:80%;
+    margin: auto;
+    text-align: center;
+    padding-top: 100px;
+    padding-bottom: 50px;
+}
+
+.fifth h1{
+font-weight: 900;
+font-size: 38px;
+
+}
+.btn-new{
+    background-color: rgb(219, 75, 75);
+        border-bottom-right-radius: 5px;
+        border-top-right-radius: 5px;
+        padding: 6.93px 37px 9px 37px ;
+        color: white;
+
+        text-align: center;
+        display: inline-block;
+        font-size: 15.5px;
+        margin: 20px 30px;
+        cursor: pointer;
+        text-decoration:none;
+
+}
+.subscribe{
+    padding: 50px 50px 50px 80px;
+    
+margin-top: 60px;
+margin-bottom: 60px;
+width: 60%;
+margin-left: 180px;
+background-color: rgb(200, 252, 176);
+}
+  
+
+/*-----footer------*/
+footer{
+
+    
+    background-color: rgb(6, 6, 22);
+    color: white;
+    align-items: center;
+    justify-content: center;
+   
+    text-align: center;
+    font-family: 'Poppins', sans-serif;
+    font-size: 20px;
+}
+.footer-para{
+    font-weight: 200;
+    font-size: 12px;
+    
+    padding-bottom: 45px;
+}
+
+.footer-header{
+    padding-top: 30px;
+    padding-bottom: 20px;
+    font-family: 'Lobster', cursive;
+    font-weight: 400;
+    color: rgb(253, 124, 124);
+}
